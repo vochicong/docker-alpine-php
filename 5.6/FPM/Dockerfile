@@ -2,11 +2,11 @@
 FROM alpine:latest
 
 # Maintainer
-MAINTAINER Muhammad Zamroni <halo@matriphe.com>
+MAINTAINER Cong Vo <kongvc@gmail.com>
 
 # Environments
-ENV TIMEZONE            Asia/Jakarta
-ENV PHP_MEMORY_LIMIT    512M
+ENV TIMEZONE            Asia/Tokyo
+ENV PHP_MEMORY_LIMIT    1024M
 ENV MAX_UPLOAD          50M
 ENV PHP_MAX_FILE_UPLOAD 200
 ENV PHP_MAX_POST        100M
